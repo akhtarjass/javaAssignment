@@ -3,16 +3,411 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Learn JAVA</title>
-    <script src="style.js"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
 </head>
-<body >
-<!-- <h1>Hello World</h1> -->
-<script>
- 
+<body>
 
-
-</script>
+    <!-- CHAPTER 14-15 task 9 -->
     
-</body> 
+    <!-- <div>
+        
+        <button id="add" onclick="clickMe()" >CLICK ME</button>
+    </div> -->
+
+
+    <!-- CHAPTER 43-48  task 1 -->
+    <!-- <p id="link" onclick="clickLink()">this is example link</p> -->
+    
+<!-- CHAPTER 43-48  task 2 -->
+<!-- <div>
+    <div  class="row">
+        <img id="img" onclick="clickImg()" src="images/mobile1.jpg" alt="">
+    </div>
+    <div class="row">
+        <img id="img" onclick="clickImg()" src="images/mobile2.jpg" alt="">
+    </div>
+    <div class="row">
+        <img id="img" onclick="clickImg()" src="images/mobile3.jpg" alt="">
+    </div>
+    <div class="row">
+        <img id="img" onclick="clickImg()" src="images/mobile4.jpg" alt="">
+    </div>
+</div> -->
+
+<!-- CHAPTER 43-48         Task 3-->
+
+<!-- <table>
+    <tr>
+        <th>Index</th>
+        <th>Name</th>
+        <th>Class</th>
+        <th></th>
+    </tr>
+    <tr id="tab">
+        <td>0</td>
+        <td>Akhtar</td>
+        <td>10</td>
+        <td>
+            <Button onclick="del()">DELETE</Button>
+        </td>
+    </tr>
+    <tr id="tab">
+        <td>1</td>
+        <td>Aslam</td>
+        <td>9</td>
+        <td>
+            <Button onclick="del()">DELETE</Button>
+        </td>
+    </tr>
+    <tr  id="tab">
+        <td>2</td>
+        <td>Asghar</td>
+        <td>7</td>
+        <td>
+            <Button onclick="del()">DELETE</Button>
+        </td>
+    </tr>
+    <tr id="tab">
+        <td>3</td>
+        <td>Akram</td>
+        <td>5</td>
+        <td>
+            <Button onclick="del()">DELETE</Button>
+        </td>
+    </tr>
+    <tr id="tab">
+        <td>4</td>
+        <td>Saddam</td>
+        <td>10</td>
+        <td>
+            <Button onclick="del()">DELETE</Button>
+        </td>
+    </tr>
+    <tr id="tab">
+        <td>5</td>
+        <td>Azhar</td>
+        <td>8</td>
+        <td>
+            <Button onclick="del()">DELETE</Button>
+        </td>
+    </tr>
+    <tr id="tab">
+        <td>6</td>
+        <td>Rizwan</td>
+        <td>9</td>
+        <td>
+            <Button onclick="del()">DELETE</Button>
+        </td>
+    </tr>
+    <tr id="tab">
+        <td>7</td>
+        <td>Imran</td>
+        <td>8</td>
+        <td>
+            <Button onclick="del()">DELETE</Button>
+        </td>
+    </tr>
+    <tr id="tab">
+        <td>8</td>
+        <td>Aqib</td>
+        <td>6</td>
+        <td>
+            <Button onclick="del()">DELETE</Button>
+        </td>
+    </tr>
+    <tr id="tab">
+        <td>9</td>
+        <td>Farooq</td>
+        <td>11</td>
+        <td>
+            <Button onclick="del()">DELETE</Button>
+        </td>
+    </tr>
+</table> -->
+
+
+<!-- CHAPTER 43-48 TASK 4 -->
+<!-- <div>
+    <img id="mobile" onMouseover="changeImg()" onmouseout="imgChange()" src="images/mobile1.jpg" alt="">
+</div> -->
+
+
+<!-- CHAPTER 43-48 TASK 5 -->
+
+  <!-- <center>
+      <h2>Counter</h2>
+      <p>
+          <label for="number">Counter</label>
+          <input type="text" readonly="readonly" id="increase" value="0">
+      </p>
+      <p>
+        <input type="button" value="Increase" id="increase" onclick="increase()">
+        <input type="button" value="Decrease" id="decrease" onclick="decrease()">
+        
+      </p>
+  </center> -->
+
+
+<!-- CHAPTER 49-52   TASK 1 -->
+
+
+     <!-- <h2>Sign up </h2>
+    <form action="" class="submit" id="submit">
+        <table>
+        <tr>
+            <td>
+                <lable for="text">Username</lable>    
+            </td>
+            <td>
+                <input type="text" id="user">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <lable for="text">Password</lable>    
+            </td>
+            <td>
+                <input type="text" id="pass">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <lable for="text">Gander</lable>    
+            </td>
+            <td>
+                <input type="text" id="gander">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <lable for="text">Age</lable>    
+            </td>
+            <td>
+                <input type="text" id="age">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" onclick="signUp()" name="" id="signup" value="Sign Up">   
+            </td>
+        </tr>
+    </table>
+    </form>
+
+    <form action="">
+        <table>
+        <tr>
+            <td>
+                <lable for="text">Username</lable>    
+            </td>
+            <td>
+                <p id="userO"></p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <lable for="text">Password</lable>    
+            </td>
+            <td>
+                <p id="passO"></p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <lable for="text">Gander</lable>    
+            </td>
+            <td>
+                <p id="ganderO"></p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <lable for="text">Age</lable>    
+            </td>
+            <td>
+                <p id="ageO"></p>
+            </td>
+        </tr>
+        
+    </table>
+    </form> -->
+
+
+
+
+
+    <!-- CHAPTER 49-52   TASK 2 -->
+
+    <!-- <p id="pera">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius porro et ad est deleniti <a onclick="readmore()" href="javascript:void(0);">read more</a></p> -->
+
+
+
+
+    <!-- CHAPTER 49-52   TASK 3 -->
+    
+     <!-- <table>
+        <tr>
+            <th></th>
+            <th>Student details</th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr>
+            <th>Name</th>
+            <th>Gander</th>
+            <th>Age</th>
+            <th></th>
+        </tr>
+        <tr id="tab">
+            <td>Akhtar</td>
+            <td>Male</td>
+            <td>35</td>
+            <td>
+                <Button onclick="del()">DELETE</Button>
+            </td>
+            <td>
+                <Button onclick="edit()">EDIT</Button>
+            </td>
+        </tr>
+        <tr id="tab">
+            <td>Aslam</td>
+            <td>Male</td>
+            <td>39</td>
+            <td>
+                <Button onclick="del()">DELETE</Button>
+            </td>
+            <td>
+                <Button onclick="edit()">EDIT</Button>
+            </td>
+        </tr>
+        <tr  id="tab">
+            <td>Asghar</td>
+            <td>Male</td>
+            <td>27</td>
+            <td>
+                <Button onclick="del()">DELETE</Button>
+            </td>
+            <td>
+                <Button onclick="edit()">EDIT</Button>
+            </td>
+        </tr>
+        <tr id="tab">
+            <td>Akram</td>
+            <td>Male</td>
+            <td>25</td>
+            <td>
+                <Button onclick="del()">DELETE</Button>
+            </td>
+            <td>
+                <Button onclick="edit()">EDIT</Button>
+            </td>
+        </tr>
+        <tr id="tab">
+            <td>Saddam</td>
+            <td>Male</td>
+            <td>30</td>
+            <td>
+                <Button onclick="del()">DELETE</Button>
+            </td>
+            <td>
+                <Button onclick="edit()">EDIT</Button>
+            </td>
+        </tr>
+        <tr id="tab">
+            <td>Azhar</td>
+            <td>Male</td>
+            <td>28</td>
+            <td>
+                <Button onclick="del()">DELETE</Button>
+            </td>
+            <td>
+                <Button onclick="edit()">EDIT</Button>
+            </td>
+        </tr>
+        <tr id="tab">
+            <td>Rizwan</td>
+            <td>Male</td>
+            <td>29</td>
+            <td>
+                <Button onclick="del()">DELETE</Button>
+            </td>
+            <td>
+                <Button onclick="edit()">EDIT</Button>
+            </td>
+        </tr>
+        <tr id="tab">
+            <td>Imran</td>
+            <td>Male</td>
+            <td>33</td>
+            <td>
+                <Button onclick="del()">DELETE</Button>
+            </td>
+            <td>
+                <Button onclick="edit()">EDIT</Button>
+            </td>
+        </tr>
+        <tr id="tab">
+            <td>Aqib</td>
+            <td>Male</td>
+            <td>26</td>
+            <td>
+                <Button onclick="del()">DELETE</Button>
+            </td>
+            <td>
+                <Button onclick="edit()">EDIT</Button>
+            </td>
+        </tr>
+        <tr id="tab">
+            <td>Farooq</td>
+            <td>Male</td>
+            <td>31</td>
+            <td>
+                <Button onclick="del()">DELETE</Button>
+            </td>
+            <td>
+                <Button onclick="edit()">EDIT</Button>
+            </td>
+        </tr>
+    </EDIT
+ -->
+
+    <!-- CHAPTER 53-58 -->
+    
+    
+    <!-- <img src="" alt=""> -->
+    
+    
+    
+    <!-- CHAPTER 58-67 -->
+
+    <!-- <div>
+        <h1> DOM </h1>
+        <div id="form-content" class="content"
+        ><label for="first-name">First Name</label
+            ><input type="text" id="first-name" 
+        /><label for="last-name">Last Name</label
+            ><input type="text" id="last-name" 
+        /><label for="email">Email</label
+            ><input type="text" id="email" 
+        /></div>
+        <div id="main-content" class="content"
+        ><p class="render"> First Name : Alex</p
+            ><p class="render" id="lastName">Last Name: Bank</p
+                ><p class="render"> Email : alexbank@example.com</p
+                    ><p class="render"> Country : Pakistan </p
+                        ><p class="render"> contact : +92 300 1234567</p
+                            ></div><button id="reg" onclick="get()" >Register</button
+                                ></div> -->
+
+
+
+
+
+    <script src="app.js"></script>
+    <script src="app2.js"></script>
+    <script src="app3.js"></script>
+    <script src="style.js"></script>
+</body>
 </html>

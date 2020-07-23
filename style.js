@@ -339,8 +339,11 @@
 
 
 
-    // Task 3 uncomplete
-    // document.write("<table> <tr><th>Signal Color</th><th>Message</th></tr><tr><th>Red</th><td>Must Stop</td></tr><tr><th>Yellow</th><td>Ready to Move</td></tr><tr><th>Green</th><td>Move Now</td></tr></table>")
+    // Task 3 
+    // var firstLi = prompt("Entere the signal color for Must Stop")
+    // var secondLi = prompt("Entere the signal color for Ready to Move")
+    // var thirdLi = prompt("Entere the signal color for Move Now")
+    // document.write("<table> <tr><th>Signal Color</th><th>Message</th></tr><tr><th>"+firstLi+"</th><td>Must Stop</td></tr><tr><th>"+secondLi+"</th><td>Ready to Move</td></tr><tr><th>"+thirdLi+"</th><td>Move Now</td></tr></table>")
 
     // Task 4
     // var fule = prompt("Enter Car fule in Liter")
@@ -485,8 +488,28 @@
 // alert(a)
 
 // Task 2
-// Task 3
+// var num = prompt("Enter two Integers")
+// var strNum = num.split("");
+// var index1 = strNum[0]
+// var index2 = strNum[1]
+// if(index1>index2){
+//     alert("It is the larger number: "+index1) 
+// }else if(index2>index1){
+//     alert("It is the larger number: "+index2)
+// }else{
+//     alert("Both are equal")
+// }
 
+
+// Task 3
+// var num = prompt("Enter number")
+// if(num.includes("-")){
+//     alert("it is nagetive")
+// }else if(num.includes(0)){
+//     alert("it is zero")
+// }else{
+//     alert("it is positive")
+// }
 
 
 // Task 4
@@ -575,7 +598,7 @@
 // }
 
 
-// CHAPTER # 13-15
+// CHAPTER # 14-15
 
 
 // Task 1
@@ -584,10 +607,120 @@
 
 // Task 2
 
-// var studentName = [firstName:'', lastName: '',]
+// var studentName = [firsName:'', lastName: '',]
 
 
 
+// Task 3
+//  var cities = ["Karachi","Lahore","peshawer"]
 
+// Task 4
+// var num = [12,4,54,6,7]
+
+// Task 5
+// var boolean = ["true","false"]
+
+// Task 6
+// var mixed = ["Karachi","Akhtar",112,"Hydrabad",65]
+
+// Task 7
+// var edu = ["","HSC","BCS","BS","BCOM","MS","M.Phil.","PhD","SSC"]
+// for(var i =1; i<edu.length; i++){
+//     document.write("<h1>"+i+") "+edu[i]+"</h1>")
+// }
+
+
+
+// Task 8
+// var students = ["Micheal","John","Tony"]
+// var marks = ["320","230","480"]
+// for(i=0; i<students.length; i++){
+//     document.write("<h1> Score of "+students[i]+" is "+marks[i]+ "Percentage: "+100/500*marks[i]+"% </h1>")
+// }
+
+// Task 9 uncomplete
+var color = ["white ","black ","orange ","pink ","blue ","green ","yellow "]
+for(var i=0;i<color.length;i++){
+    document.write("<h1>"+color[i]+"</h1>")
+}
+
+// a)
+// function clickMe(){
+//     var addStart = prompt("ënter color name to add in the start ") 
+//     color.unshift(addStart);
+//     for(var i=0;i<color.length;i++){
+//         document.write("<h1>"+color[i]+"</h1>")
+//     }
+// }
+
+
+// b)
+// function clickMe(){
+//     var addStart = prompt("ënter color name to add in the end ") 
+//     color.push(addStart);
+//     for(var i=0;i<color.length;i++){
+//         document.write("<h1>"+color[i]+"</h1>")
+//     }
+// }
+
+
+// c)
+// function clickMe(){
+//     var addStart = prompt("ënter color name to add first color in the start")
+//     var addStart2 = prompt("ënter color name to add second color in the start")
+
+//     color.unshift(addStart,addStart2);
+//     for(var i=0;i<color.length;i++){
+//         document.write("<h1>"+color[i]+"</h1>")
+//     }
+// }
+
+
+
+// d)
+// function clickMe(){
+//     color.shift();
+//     for(var i=0;i<color.length;i++){
+//         document.write("<h1>"+color[i]+"</h1>")
+//     }
+// }
+
+// e)
+// function clickMe(){
+//     color.pop();
+//     for(var i=0;i<color.length;i++){
+//         document.write("<h1>"+color[i]+"</h1>")
+//     }
+// }
+
+// f)
+// function clickMe(){
+//          var nameColor = prompt("ënter color name")
+//          var posi = prompt("enter position")
+//         posi = posi -1
+        
+//          color.splice(posi,0,nameColor);
+//          for(var i=0;i<color.length;i++){
+//              document.write("<h1>"+color[i]+"</h1>")
+//          }
+//     }
+
+    function clickMe(){
+        var nameColor = prompt("ënter color name to remove")
+        var delColor = color.indexOf(nameColor)
+        // posi = posi -1
+        
+    //    alert(nameColor)
+       console.log(color)
+       
+       console.log(delColor)
+        for(var i=0;i<color.length;i++){
+            document.write("<h1>"+color[i]+"</h1>")
+        }
+   }
+
+
+
+// Task 10
   
 
